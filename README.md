@@ -7,7 +7,6 @@ This website that I'm going to design is a website that help promote a game call
 ## Home
 this first page will be the home page where by user will be able to see the overview of the game,gain several insights to the game and possibly make/view the review that have been made by other players.
 ### Highlights
-(image.jpg)
 This section will display highlights keyinformation that happened recently. For example, an update of the app, a new character, recent on going competition
 ### Description
 This section will be displaying an overview of what is like, explain how the game works etc.
@@ -16,7 +15,10 @@ This section shows the reviews made by other players who play the game. User who
 ### Reviews for users
 This section is for user to make reviews on their opinion of the game etc.
 ## Competition
+### Videos
+This competition page will only have one section this will be the  page where all the videos that can be found. These videos are the macthes played in competition. This videos will allow user(who don't play the game ) to see how is the game actually like. For user who  already plays the game this wpuld hbe the place for them to rewatch/ analyze the game.
 ## News
+
 ## Hero
 # Web Page 1
 
