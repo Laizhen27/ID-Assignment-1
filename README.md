@@ -18,9 +18,14 @@ This section is for user to make reviews on their opinion of the game etc.
 ### Videos
 This competition page will only have one section this will be the  page where all the videos that can be found. These videos are the macthes played in competition. This videos will allow user(who don't play the game ) to see how is the game actually like. For user who  already plays the game this wpuld hbe the place for them to rewatch/ analyze the game.
 ## News
+patch notices, new hero news will all be placed here and is being split into 2 part a recent patch notice and a section with all the patch notices
+### Recent
+We will be displaying 3 recent updates here so that the user can view the most updated changes right away
+### All 
+This will be the place where user would be able to view all the pass patch notices. To facilate the process a search bar will be placed at right above all the patch notice so the user will be abl eto find out the patch notice they want
 
 ## Hero
-# Web Page 1
+
 
 
 
