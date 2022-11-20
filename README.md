@@ -25,7 +25,11 @@ We will be displaying 3 recent updates here so that the user can view the most u
 This will be the place where user would be able to view all the pass patch notices. To facilate the process a search bar will be placed at right above all the patch notice so the user will be abl eto find out the patch notice they want
 
 ## Hero
-
+All the hero images will be shown here it comes with a navigation bar so that the user can select the category they want e.g Assasin etc.
+### Navigation bar
+this bar allow the user to select the hero category that they want to view but by default it will be set to 'ALL' where user will be able to view all 
+### Hero Images
+Images of different will be displayed according to alphabetical order.
 
 
 
