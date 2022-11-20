@@ -1,7 +1,16 @@
+body{
+    margin: 0;
+    background:white;
+    
+}
 header{
     background: black;
-    /* padding: 0; */
 
+}
+.logo{
+    float: left;
+   padding-top: 40px;
+    padding-left: 0;
 }
 
 header::after{
@@ -9,24 +18,35 @@ header::after{
     display: table;
     clear: both;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 
-
-li{
-    float:right;
-    padding: 40px;
+nav ul{
+    
     list-style: none;
     
+}
+nav li {
+    float:left;
+    padding: 40px;
+    padding-bottom: 30px;
 }
 
 nav{
     float:right;
-    margin-right: 120px;
+    margin-right: 20px;
 }
-a{
+nav a{
     color:yellow;
     font-size: 25px;
     font-family: "Segoe UI", Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
 }
-
+nav a:hover{
+    color:aqua;
+}
 
 
