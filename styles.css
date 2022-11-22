@@ -8,9 +8,9 @@ header{
 
 }
 .logo{
-    float: left;
-   padding-top: 40px;
-    padding-left: 0;
+    
+    padding-top: 40px;
+    padding-right: 0px;
 }
 
 header::after{
@@ -19,7 +19,7 @@ header::after{
     clear: both;
 }
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -41,12 +41,22 @@ nav{
 nav a{
     color:yellow;
     font-size: 25px;
+    font: bold;
     font-family: "Segoe UI", Arial, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
 nav a:hover{
     color:aqua;
+    
+}
+.img-container{
+    float: center;
+    width:  80%;
+    padding-left: 150px;
+    padding-top: 30px;
+   
+  
 }
 
 
