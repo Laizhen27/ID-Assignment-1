@@ -29,13 +29,43 @@
         </nav>
       </div>
     </header>
-    <div calss="img-container">
-      <img
-        src="https://gumlet.assettype.com/afkgaming%2F2022-08%2F1118b6da-866d-495d-a844-ef50ec38f6c7%2FMLBB_New_hero_joy.jpg?format=auto"
-        alt="new hero"
-        height="500"
-        width="500"
-        class="img-container" />
+    <!-- image slider starts -->
+    <div class="slider">
+      <div class="slides">
+        <!-- creating radio buttons -->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <!-- slide image -->
+        <div calss="slide-first">
+          <img src="Joy.jpg" alt="" width="800px" height="500px" />
+        </div>
+        <div class="slide">
+          <img src="Lesley.jpg" alt="" width="800px" height="500px" />
+        </div>
+        <div class="slide">
+          <img src="M4.png" alt="" width="800px" height="500px" />
+        </div>
+        <div class="slide">
+          <img src="popol.jpg" alt="" width="800px" height="500px" />
+        </div>
+        <!-- slideshow -->
+        <div class="slideshow">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!-- user can select the image they want -->
+        <div class="slideshow-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
     </div>
+    <!-- image slider ends -->
   </body>
 </html>
