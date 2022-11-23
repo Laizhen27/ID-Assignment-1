@@ -7,16 +7,17 @@ body{
     /* display:flex; */
     justify-content:center;
     align-items: center;
-    position: absolute;
+    
 
 }
+
 header{
     background: black;
-    position:relative;
+    position: sticky;
+    position:relative; 
     display:flex;
     align-items: center;
     transition: 2s
-
 
 }
 .logo{
@@ -37,17 +38,22 @@ header::after{
 
 nav ul{
     list-style: none;
-    
+
 }
 nav li {
     float:left;
     padding: 40px;
     padding-bottom: 30px;
+    background:black;
+    border-radius: 10px;
+
+    
 }
 
 nav{
     float:right;
-    margin-right: 20px;
+    margin-right: 70px;
+
 }
 nav a{
     color:yellow;
@@ -56,9 +62,33 @@ nav a{
     font-family: "Segoe UI", Arial, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
+
 }
-nav a:hover{
-    color:aqua;   
+nav ul ul{
+    position:absolute;
+    visibility: hidden;
+
+}
+nav ul ul li{
+    position:relative;
+    margin:0;
+    width:150px;
+    float:none;
+    display:list-item;
+    z-index: 5;
+  
+
+}
+
+nav ul li a:hover{
+    color:#33ffff;
+    box-shadow: 0 0 5px #33ffff;
+ 
+}
+nav ul li:hover> ul{
+    opacity:1;
+    visibility: visible;
+
 }
 #slider{
     overflow:hidden;
@@ -73,7 +103,7 @@ nav a:hover{
     
 }
 #slider figure img{
-    padding-top: 20px;
+    padding-top: 24.5px;
     float: left;
     width:20%;
     
@@ -121,12 +151,12 @@ nav a:hover{
     
 }
 .appicon{
-    padding-right:200px;
+    padding-right:340px;
     width:100px;
     float:right;
     height: 100px;  
-    border-radius: 20px;
-    border:2px
+    /* border-radius: 20px; */
+    
    
 }
 
