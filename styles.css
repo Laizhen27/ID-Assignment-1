@@ -1,16 +1,18 @@
 body{
     margin: 0;
-    background:flora white;
+    background:#e2e0de;
      margin:0;
     padding: 0;
     height: 100vh;
     /* display:flex; */
     justify-content:center;
     align-items: center;
+    position: absolute;
 
 }
 header{
     background: black;
+    position:relative;
 
 }
 .logo{
@@ -30,7 +32,6 @@ header::after{
 }
 
 nav ul{
-    
     list-style: none;
     
 }
@@ -55,73 +56,66 @@ nav a{
 nav a:hover{
     color:aqua;   
 }
-.slider{
-    width: 800px;
-    height: 500px;
-    border-radius: 10px;
+#slider{
     overflow:hidden;
-
 }
-.slides{
-
+#slider figure {
+    position : relative;
     width:500%;
-    height:500px;
-    display:flex;
+    margin:0;
+    left:0;
+    transition: all .2s ease-in-out;
+    animation:15s slider infinite;
+    
 }
-.slides input{
-    display:none;
-}
-
-.slide{
+#slider figure img{
+    padding-top: 20px;
+    float: left;
     width:20%;
-    transition:2s;
-}
-.slide img{
-    
-    width: 800px;
-    height: 500px;
-
-}
-.slideshow-manual{
-    position:absolute;
-    width:800px;
-    margin-top:400px; /*shifting of radio */
-    display:flex;
-    justify-content:center;
     
 }
 
-.manual-btn{
-    border: 2px solid grey;
-    padding:5px;
-    border-radius:10px;
-    cursor:pointer;
-    transition: 1s;
-    display: inline-block;
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left: -100%
+    }
+    45% {
+        left: -100%
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+       left: -300%;
+    }
+    100%{
+        left:-400%
+    }
 
 }
-.manual-btn:not(:last-child){
-    margin-right:40px;
+.overview-container{
+   padding-right:0px;
+    /* background-color: bisque; */
+    border: solid black;
+    
 }
-.manual-btn:hover{
-    background:grey
+.appicon{
+    float:right;
+    max-width: 100%;
+    width:50px;
+    height: 50px;
 }
-
-#radio1:checked~ .first{
-    margin-left:0;
-}
-
-.radio2:checked~ .first{
-    margin-left:20%;
-}
-#radio3:checked~ .first{
-    margin-left:40%;
-}
-#radio4:checked~.first{
-    margin-left:60%;
-} 
-
-
-
 
 
