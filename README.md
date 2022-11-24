@@ -3,7 +3,7 @@ This is a ID Assignment
 # Overview of Web Page
 This website that I'm going to design is a website that help promote a game called Mobile Legend. Mobile Legends: Bang Bang, commonly referred to as ML or MLBB, is a mobile multiplayer online battle arena (MOBA) game developed and published by Moonton, a subsidiary of ByteDance. This website includes details of the game like introduces the game/provide game news/ able to find information of different characters in the game. This website also allow people to view games recording that is being played by professional this will then draw more attention to the game as they now know how this game works.
 
-# Webpage Structure
+# Webpage Structure (Features)
 ## Home
 this first page will be the home page where by user will be able to see the overview of the game,gain several insights to the game and possibly make/view the review that have been made by other players.
 ### Highlights
