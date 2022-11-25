@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background:#e2e0de;
+    padding: 0;
+    height: 100vh;
+    /* display:flex; */
+    justify-content:center;
+    align-items: center;
+    
+
+}
+header{
+    background: black;
+    position: sticky;
+    position:relative; 
+    display:flex;
+    align-items: center;
+    transition: 2s;
+    height:auto;
+
+}
+.logo{
+    
+    padding-top: 40px;
+    padding-right: 0px;
+
+}
+
+header::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style: none;
+
+}
+nav li {
+    float:left;
+    padding: 40px;
+    padding-bottom: 30px;
+    background:black;
+    border-radius: 10px;
+
+    
+}
+
+nav{
+    float:right;
+    margin-right: 70px;
+
+}
+nav a{
+    color:yellow;
+    font-size: 25px;
+    font: bold;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+nav ul ul{
+    position:absolute;
+    visibility: hidden;
+
+}
+nav ul ul li{
+    position:relative;
+    margin:0;
+    width:150px;
+    float:none;
+    display:list-item;
+    z-index: 5;
+  
+
+}
+
+nav ul li a:hover{
+    color:#33ffff;
+    box-shadow: 0 0 5px #33ffff;
+ 
+}
+nav ul li:hover> ul{
+    opacity:1;
+    visibility: visible;
+
+}
+.image-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.display{
+    width: 20%;
+    height:auto;
+    margin:0;
+    margin-right: 0;
+
+}

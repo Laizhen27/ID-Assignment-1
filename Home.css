@@ -146,14 +146,15 @@ html{
 
 }
 .overview-container{
-    border:2px solid black;
-    border-radius: 10px;
+    /* border:2px solid black;
+    border-radius: 10px; */
     width:50%;
     float:left;
+    padding-left: 30px;
 }
 
 .download{
-    padding-left: 100px;
+    padding-left: 80px;
     text-align: center;
     
 }
