@@ -91,13 +91,77 @@ nav ul li:hover> ul{
 
 }
 .image-container{
-    display:flex;
     flex-wrap: wrap;
+    display: flex;
+    margin:0;
+    position: relative;
 }
+/* smaller navigation  */
+.subheader{
+    padding-top:50px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+.category{
+    background-color:rgb(151, 146, 146);
+    opacity: transparent;
+    display:inline-block; /* to allow background to wrap aorund text only */
+    border-radius: 20px;  
+
+
+}
+.subheader li {
+    float:left;
+    margin-right:50px;
+
+}
+.subheader ul{
+    list-style: none;
+}
+.subheader ul a{
+    text-decoration: none;
+    font-size:25px;
+    color:black;
+}
+.subheader ul li a:toggle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .display{
     width: 20%;
     height:auto;
     margin:0;
-    margin-right: 0;
 
+}
+.display img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.display:hover{
+    opacity: 0.5;
+}
+.display:hover .img{
+    opacity: 1.0;
 }
