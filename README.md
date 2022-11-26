@@ -31,6 +31,10 @@ this bar allow the user to select the hero category that they want to view but b
 ### Hero Images
 Images of different will be displayed according to alphabetical order.
 
+# Credits
+https://liquipedia.net/mobilelegends/
+https://mobile-legends.fandom.com/wiki/List_of_heroes
+https://www.youtube.com/watch?v=exb2ab72Xhs
 
 
 
