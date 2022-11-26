@@ -112,6 +112,7 @@ nav ul li:hover> ul{
 
 }
 .subheader li {
+    border:solid rgb(151, 146, 146);
     float:left;
     margin-right:50px;
 
@@ -124,27 +125,63 @@ nav ul li:hover> ul{
     font-size:25px;
     color:black;
 }
-.subheader ul li a:toggle
+.subheader ul li a:hover{
 
+    background-color: #2eca5d;;
+    box-shadow: 0 0 5px #2eca5d;
 
+}
+/* Images */
+.image-container{
+    position:relative;
+    width: 300px;
 
+}
+.image{
+    display:block;
+    width: 100%;
 
+}
+.image-overlay{
+    position:absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    color:white;
+    display:flex;
+    
+    justify-content: center;
+    align-items:flex-end;
+    
+    opacity:0;
+    transition: opacity 0.25s;
 
+}
+.image-overlay > *{
+    transform:translateY(20px);
+    transition: transform 0.25s;
 
+}
+.image-overlay:hover{
+    opacity:1;
+}
+.image-overlay:hover > *{
+    transform: translatey(0px);
+}
+.text{
+    padding-bottom: 10px;
+    font-size:  40px;
+    font-weight:bold;
+    font-family: 'Allan'
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 
+.image-conatainer{
+    position:relative;
+    width:100%
+}
 .display{
     width: 20%;
     height:auto;
@@ -165,3 +202,7 @@ nav ul li:hover> ul{
 .display:hover .img{
     opacity: 1.0;
 }
+.text {
+    background-color: rgb(144, 135, 135);
+    font-size: 16px;
+  } */
