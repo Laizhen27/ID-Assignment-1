@@ -17,6 +17,8 @@ header{
     align-items: center;
     transition: 2s;
     height:auto;
+    background-size:Cover;
+    background-attachment: fixed;
 
 }
 .logo{
@@ -75,7 +77,7 @@ nav ul ul li{
     width:150px;
     float:none;
     display:list-item;
-    z-index: 5;
+    /* z-index: 5; */
   
 
 }
@@ -131,15 +133,30 @@ nav ul li:hover> ul{
     box-shadow: 0 0 5px #2eca5d;
 
 }
-/* Images */
+/* display images orderly */
+.dipslay-container{
+    /* width:20%; */
+    padding-left: 50px;
+    margin-left: 20px;
+    padding-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+/* Image animation */
 .image-container{
     position:relative;
-    width: 300px;
+    width: 18%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
 
 }
 .image{
     display:block;
     width: 100%;
+    border-radius: 10px;
+    border:2px solid black
 
 }
 .image-overlay{
@@ -150,11 +167,9 @@ nav ul li:hover> ul{
     height:100%;
     background: rgba(0,0,0,0.6);
     color:white;
-    display:flex;
-    
+    display:flex;  
     justify-content: center;
     align-items:flex-end;
-    
     opacity:0;
     transition: opacity 0.25s;
 
