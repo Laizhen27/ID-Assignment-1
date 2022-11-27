@@ -1,12 +1,13 @@
 body{
     margin: 0;
     background:#cbbe92;
-     margin:0;
+    margin:0;
     padding: 0;
     height: 100vh;
     /* display:flex; */
     justify-content:center;
     align-items: center;
+    float:center;
     
 
 }
@@ -145,14 +146,26 @@ html{
     }
 
 }
-.overview-container{
-    /* border:2px solid black;
-    border-radius: 10px; */
-    width:50%;
-    float:left;
-    padding-left: 30px;
-}
+/* overview */
 
+.overview-container{
+    background-image: url("Slideshow/YSS.webp");
+    align-items: center;
+    float:center;
+    text-align: left;
+}
+.overview-text{
+    flex-wrap: wrap;
+    text-align: center;
+
+
+}
+.overview-text h2{
+
+    border-radius: 10px;  
+    float:center;
+}
+/* 
 .download{
     padding-left: 80px;
     text-align: center;
@@ -164,8 +177,8 @@ html{
     float:right;
     height: 100px;  
     /* border-radius: 20px; */
-    
-   
-}
+
+
+
 
 
