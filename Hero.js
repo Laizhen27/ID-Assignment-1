@@ -1,7 +1,17 @@
-$(document).on('scroll',function(){
-  $('h2').css("left",Math.max(500 - 0.35* window.scrollY)+"px")
-}
+window.onscroll = function () {
+  myFunction();
+};
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 // Fiterselection("All");
 // function filterCategory(c) {
 //   var x, i;
