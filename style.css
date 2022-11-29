@@ -3,7 +3,6 @@ body{
     background:#cbbe92;
     margin:0;
     padding: 0;
-    height: 100vh;
     /* display:flex; */
     justify-content:center;
     align-items: center;
@@ -15,16 +14,15 @@ header{
     background: black;
     display:flex;
     align-items: center;
-    transition: 2s;
+
     height:auto;
-
-
+    float:center;
 
 }
 .logo{
-    
     padding-top: 40px;
     padding-right: 0px;
+    float:left
 }
 
 header::after{
@@ -35,30 +33,35 @@ header::after{
 .container{
     width: 85%;
     margin: 0 auto;
+    float:center
 
 
 }
+
+
 
 nav ul{
     list-style: none;
+    float:right;
+    
+
+
 }
 nav li {
+    position: relative;
     float:left;
     padding: 40px;
     padding-bottom: 30px;
-    background:black;
+    background: black;
     border-radius: 10px;
+    margin-right:20px;
+    padding-left: 20px;
+    display:inline-block;
 
 
-
-    
 }
 
-nav{
-    float:right;
-    margin-right: 70px;
 
-}
 nav a{
     color:yellow;
     font-size: 25px;
@@ -72,7 +75,6 @@ nav a{
 nav ul ul{
     position:absolute;
     visibility: hidden;
-
 
 }
 nav ul ul li{
@@ -100,8 +102,15 @@ nav ul li:hover> ul{
 html{
     scroll-behavior: smooth;
 }
+/* slideshow */
 #slider{
     overflow:hidden;
+    width:80%;
+    margin-left: 10%;
+    padding-bottom:10px;
+
+
+
 }
 #slider figure {
     position : relative;
@@ -110,13 +119,14 @@ html{
     left:0;
     transition: all .2s ease-in-out;
     animation:15s slider infinite;
-    
+
 }
 #slider figure img{
-    padding-top: 24.5px;
+    padding-top: 16px;
     float: left;
     width:20%;
     max-width:100%;
+
 
     
 }
@@ -161,21 +171,15 @@ html{
 
 
 }
-.overview{
-    justify-content: center;
-    align-items: center;
 
-
-
-}
 .overview-text{
     top: 50%;
     left: 50%;
-    transform: translate(-50%,80%);
     position: relative;
     text-align: center;
     display:inline-block;
-
+    transition: all 1s ease-out;
+    transform: translate(-50%,80%);
 
 }
 .overview-text h2{
@@ -186,21 +190,126 @@ html{
     border: 2px solid black;
     color:beige;
     border-radius: 10px;  
-    float:center;
+
 
 }
-/* 
-.download{
-    padding-left: 80px;
-    text-align: center;
-    
+/* Review */
+
+.review-container{
+    padding-top:100%;
+    left:30%;
+    width:400px;
+    background:#111;
+    position:relative;
+    padding: 20px 30px;
+    border:1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    height:auto;
 }
-.appicon{
-    padding-right:340px;
-    width:100px;
+
+.review-container .star input{
+    display:none;
+}
+.star label{
+    font-size:40px;
+    color:#444;
+    padding: 10px;
     float:right;
-    height: 100px;  
-    /* border-radius: 20px; */
+    transition:all 0.2s ease;
+}
+input:not(checked) ~label:hover,
+input:not(checked) ~label:hover ~ label{
+    color:#fd4;
+}
+
+
+
+input:checked ~ label{
+    color:#fd4;
+}
+input#rate5:checked ~ label{
+    color:#fe7;
+    text-shadow: 0 0 20px #952;
+}
+input#rate1:checked ~ form .review:before{
+    content:"This game is bad"
+
+}
+input#rate2:checked ~ form .review:before{
+    content:"I'll try to play"
+
+}
+
+input#rate3:checked ~ form .review:before{
+    content:"I'll play during my free time"
+
+}
+input#rate4:checked ~ form .review:before{
+    content: "Love it"
+}
+input#rate5:checked ~ form .review:before{
+    content:"Will recommend to my friend!";
+
+}
+button{
+    justify-content: center;
+    text-align: center;
+    place-items: center ;
+}
+form .review{
+    font-family: 'Abhaya Libre';
+    width: auto;
+    height:auto;
+    font-size: 25px;
+    color:yellow;
+    font-weight: 500;
+    margin:0 2px 0;
+    text-align: center;
+    transition:all 0.2s ease;
+}
+form .textarea{
+    height:100px;
+    width: 100%;
+
+}
+form .textarea textarea{
+    height: 100%;
+    width:100%;
+    color:white;
+    outline:none;
+    border:1px solid #333;
+    border:1px solid;
+    background:#444;
+    font-size: 17px;
+
+}
+form .btn{
+    padding-top:20%;
+    height: 45px;
+    width: 100%;
+    margin:15px 0;
+}
+form .btn button{
+    
+    height:100%;
+    width: 100%;
+    border:1px solid black;
+    border-radius: 5px;
+    background:#444;
+    font-size:15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+form .btn button:hover{
+    background-color: #333;
+}
+
+
+
 
 
 
