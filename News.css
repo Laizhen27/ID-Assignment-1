@@ -1,112 +1,32 @@
-
-.review-container{
-    padding-top: 10px;
-    width:400px;
-    background:#111;
-    position:relative;
-    padding: 20px 30px;
-    border:1px solid black;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    flex-direction: column;
-    height:auto;
-}
-
-.review-container .star input{
-    display:none;
-}
-.star label{
-    font-size:40px;
-    color:#444;
-    padding: 10px;
-    float:right;
-    transition:all 0.2s ease;
-}
-input:not(checked) ~label:hover,
-input:not(checked) ~label:hover ~ label{
-    color:#fd4;
-}
-
-
-
-input:checked ~ label{
-    color:#fd4;
-}
-input#rate5:checked ~ label{
-    color:#fe7;
-    text-shadow: 0 0 20px #952;
-}
-input#rate1:checked ~ form .review:before{
-    content:"This game is bad"
-
-}
-input#rate2:checked ~ form .review:before{
-    content:"I'll try to play"
-
-}
-
-input#rate3:checked ~ form .review:before{
-    content:"I'll play during my free time"
-
-}
-input#rate4:checked ~ form .review:before{
-    content:"I love it";
-}
-input#rate5:checked ~ form .review:before{
-    content:"Will recommend to my friend!";
-
-}
-button{
-    justify-content: center;
-    text-align: center;
-    place-items: center ;
-}
-form .review{
-    font-family: 'Abhaya Libre';
-    width: auto;
-    height:auto;
-    font-size: 25px;
-    color:yellow;
-    font-weight: 500;
-    margin:0 2px 0;
-    text-align: center;
-    transition:all 0.2s ease;
-}
-form .textarea{
-    height:100px;
-    width: 100%;
-
-}
-form .textarea textarea{
-    height: 100%;
-    width:100%;
-    color:white;
-    outline:none;
-    border:1px solid #333;
-    border:1px solid;
-    background:#444;
-    font-size: 17px;
-
-}
-form .btn{
-    padding-top:20%;
-    height: 45px;
-    width: 100%;
-    margin:15px 0;
-}
-form .btn button{
+.image-container{
+    height: auto;
+    margin:auto 0;
     
-    height:100%;
-    width: 100%;
-    border:1px solid black;
-    border-radius: 5px;
-    background:#444;
-    font-size:15px;
-    text-transform: uppercase;
-    cursor: pointer;
 }
-form .btn button:hover{
-    background-color: #333;
+.column{
+    
+    float:left;
+    width:25%;
+    padding:10px;
+    margin-right: 40px;
+    margin-left: 60px;
+    
+
+}
+.image-container::after{
+    content: "";
+    display: table;
+}
+.column img{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+}
+
+.patch{
+    width: 30%;
+    float:left;
+}
+.info{
+    float:right;
 }

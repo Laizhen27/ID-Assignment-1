@@ -1,12 +1,57 @@
-
+.show {
+    display: block;
+  }
 .image-container{
     flex-wrap: wrap;
     display: flex;
     margin:0;
     position: relative;
 }
-/* smaller navigation  */
 .subheader{
+    padding-top: 20px;
+    float:center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    height: 40px;
+    
+  }
+  #myBtnContainer{
+
+    margin-right: 20%;
+    border:2px solid rgb(0,0,0,0.6);
+    border-radius: 5px;
+    display:inline-block;
+    background:rgb(151, 146, 146);
+    opacity: transparent;
+    
+    
+    
+  }
+  .btn {
+    background:rgb(151, 146, 146);
+    border-radius: 5px;
+    opacity: transparent;
+    color:black; 
+    height:40px;
+    width:auto;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: cyan;
+  }
+  
+  .btn.active {
+    background-color: cyan;
+    color: black;
+  }
+/* smaller navigation  */
+/* .subheader{
     padding-top:50px;
     text-align: center;
     display: flex;
@@ -15,7 +60,7 @@
 .category{
     background-color:rgb(151, 146, 146);
     opacity: transparent;
-    display:inline-block; /* to allow background to wrap aorund text only */
+    display:inline-block; 
     border-radius: 20px;  
 
 
@@ -43,9 +88,9 @@
 .subheader ul li a.active{
     background-color: #2eca5d;
 
-}
+}*/
 
-/* display images orderly */
+ /* display images orderly  */
 .dipslay-container{
     /* width:20%; */
     padding-left: 50px;
@@ -54,7 +99,7 @@
     display:flex;
     flex-wrap: wrap;
 
-}
+} 
 /* Image animation */
 .image-container{
     position:relative;
@@ -62,13 +107,13 @@
     margin-right: 20px;
     margin-bottom: 20px;
 
-
 }
-.image{
-    display:block;
+.filterHero{
+    display:block ;
     width: 100%;
     border-radius: 10px;
-    border:2px solid black
+    border:2px solid black;
+
 
 }
 .image-overlay{
@@ -101,35 +146,6 @@
     padding-bottom: 10px;
     font-size:  40px;
     font-weight:bold;
-    font-family: 'Allan'
+    font-family: 'Allan';
 }
 
-/* 
-.image-conatainer{
-    position:relative;
-    width:100%
-}
-.display{
-    width: 20%;
-    height:auto;
-    margin:0;
-
-}
-.display img{
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-.display:hover{
-    opacity: 0.5;
-}
-.display:hover .img{
-    opacity: 1.0;
-}
-.text {
-    background-color: rgb(144, 135, 135);
-    font-size: 16px;
-  } */

@@ -52,730 +52,735 @@
         </div>
       </header>
 
-  <div class="subheader">
-    <div class="category">
-      <ul>
-        <li><a href="#Mage">Mage</a></li>
-        <li><a href="#Assasin">Assasin</a></li>
-        <li><a href="#Marksman">Marksman</a></li>
-        <li><a href="#Tank">Tank</a></li>
-        <li><a href="#Support">Support</a></li>
-        <li><a href="#Fighter">Fighter</a></li>
-      </ul>
-    </div>
-  </div>
+      <div class="subheader">
+        <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">
+            Show all
+          </button>
+          <button class="btn" onclick="filterSelection('Mage')">Mage</button>
+          <button class="btn" onclick="filterSelection('Assasin')">
+            Assasin
+          </button>
+          <button class="btn" onclick="filterSelection('Marksman')">
+            Marksman
+          </button>
+          <button class="btn" onclick="filterSelection('Tank')">Tank</button>
+          <button class="btn" onclick="filterSelection('Support')">Support</button>
+          <button class="btn" onclick="filterSelection('Fighter')">Fighter</button>
+        </div>
+      </div>
 <div class="dipslay-container">
   <div class ="image-container">
-    <img src ="Hero/Miya.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Miya.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Miya</div>
     </div>
   </div>
-  <div class ="image-container">
-    <img src ="Hero/Balmond.webp" class="image"  id ="Fighter">
+  <div class ="image-container" >
+    <img src ="Hero/Balmond.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Bal</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Saber.webp" class="image"  id ="Assasin">
+    <img src ="Hero/Saber.webp" class="filterHero Assain" >
     <div class="image-overlay">
       <div class="text">Saber</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Alice.webp" class="image"  id ="Mage" id="Tank">
+    <img src ="Hero/Alice.webp" class="filterHero Mage Tank" >
     <div class="image-overlay">
       <div class="text">Alice</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Nana.webp" class="image"  id ="Mage" id = "Support">
+    <img src ="Hero/Nana.webp" class="filterHero Mage Support">
     <div class="image-overlay">
       <div class="text">Molina</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Tigreal.webp" class="image"  id ="Tank" id ="Support">
+    <img src ="Hero/Tigreal.webp" class="filterHero Tank Support"  >
     <div class="image-overlay">
       <div class="text">Tig</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Alucard.webp" class="image"  id ="Fighter" id ="Assasin">
+    <img src ="Hero/Alucard.webp" class="filterHero Fighter Assasin"  >
     <div class="image-overlay">
       <div class="text">Alu</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Karina.webp" class="image"  id ="Assain">
+    <img src ="Hero/Karina.webp" class="filterHero Assain">
     <div class="image-overlay">
       <div class="text">Kanina</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Akai.webp" class="image"  id ="Tank" id="Support">
+    <img src ="Hero/Akai.webp" class="filterHero Tank Support">
     <div class="image-overlay">
       <div class="text">Panda</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Franco.webp" class="image"  id ="Tank" id="Support">
+    <img src ="Hero/Franco.webp" class="filterHero Tank Suport" >
     <div class="image-overlay">
       <div class="text">Franco</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Bane.webp" class="image"  id ="Fighetr" Id="Mage">
+    <img src ="Hero/Bane.webp" class="filterHero Fighter Mage">
     <div class="image-overlay">
       <div class="text">Octopus</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Bruno.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Bruno.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Bruno</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Clint.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Clint.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Clint</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Rafaela.webp" class="image"  id ="Support">
+    <img src ="Hero/Rafaela.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">Rafa</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Eudora.webp" class="image"  id ="Mage">
+    <img src ="Hero/Eudora.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Eudora</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Zilong.webp" class="image"  id ="Fighter" id ="Assain">
+    <img src ="Hero/Zilong.webp" class="filterHero Fighter Assasin">
     <div class="image-overlay">
       <div class="text">Zailong</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Fanny.webp" class="image"  id ="Assain">
+    <img src ="Hero/Fanny.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Spider-Man</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Layla.webp"class="image"  id ="Marksman">
+    <img src ="Hero/Layla.webp"class="filterHero Marksman ">
     <div class="image-overlay">
       <div class="text">Layla</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Mino.webp" class="image"  id ="Tank" id ="Suport">
+    <img src ="Hero/Mino.webp" class="filterHero Tank Support">
     <div class="image-overlay">
       <div class="text">Mino</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Lolita.jpg" class="image"  id ="Tank" id ="Support">
+    <img src ="Hero/Lolita.jpg" class="filterHero Tank Support">
     <div class="image-overlay">
       <div class="text">Lolipop</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Hayabusa.webp" class="image"  id ="Assain">
+    <img src ="Hero/Hayabusa.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Haya</div>
     </div>
   </div>
 
   <div class ="image-container">
-    <img src ="Hero/Freya.jpg" class="image"  id ="Fighter">
+    <img src ="Hero/Freya.jpg" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Freya</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Gord.jpg" class="image"  id ="Mage">
+    <img src ="Hero/Gord.jpg" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Gord</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Nata.webp" class="image"  id ="Assain">
+    <img src ="Hero/Nata.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Nata</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Kagura.webp" class="image"  id ="Mage">
+    <img src ="Hero/Kagura.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Kagu</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Chou.jpg" class="image"  id ="Fighter">
+    <img src ="Hero/Chou.jpg" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Chou</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Sun.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Sun.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Sun</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Alpha.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Alpha.webp" class="filterHero Fighter" >
     <div class="image-overlay">
       <div class="text">Alpha</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Ruby.webp" class="image"  id ="Fighter" id="Tank">
+    <img src ="Hero/Ruby.webp" class="filterHero Fighter Tank">
     <div class="image-overlay">
       <div class="text">Red-Riding-Hood</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/YSS.webp" class="image"  id ="Assain">
+    <img src ="Hero/YSS.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">YSS</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Moskov.png" class="image"  id ="Marksman">
+    <img src ="Hero/Moskov.png" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Moskov</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Johnson.jpg" class="image"  id ="Tank">
+    <img src ="Hero/Johnson.jpg" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">John</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Cyclops.jpg" class="image"  id ="Mage">
+    <img src ="Hero/Cyclops.jpg" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Midget</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Estes.webp" class="image"  id ="Support">
+    <img src ="Hero/Estes.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">Estes</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Hilda.webp" class="image"  id ="Fighetr" id ="Tank">
+    <img src ="Hero/Hilda.webp" class="filterHero Fighter Tank">
     <div class="image-overlay">
       <div class="text">Bush Lady</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Aurora.png" class="image"  id ="Mage">
+    <img src ="Hero/Aurora.png" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">ice ice</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Lapu.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Lapu.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text"><pupu></Lapu-Lapu></div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Vex.webp" class="image"  id ="Mage">
+    <img src ="Hero/Vex.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Vex</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Roger.webp" class="image"  id ="Fighter" id ="Marksman">
+    <img src ="Hero/Roger.webp" class="filterHero Marksman Fighter">
     <div class="image-overlay">
       <div class="text">Wolf</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Karrie.png" class="image"  id ="Marksman">
+    <img src ="Hero/Karrie.png" class="filterHero Marksman" >
     <div class="image-overlay">
       <div class="text">Karrie</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Gatot.jpg" class="image"  id ="Tank" id="Fighter">
+    <img src ="Hero/Gatot.jpg" class="filterHero Tank Fighter"  >
     <div class="image-overlay">
       <div class="text">Gatok</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Harley.png" class="image"  id ="Mage" id="Assain">
+    <img src ="Hero/Harley.png" class="filterHero Mage Assasin">
     <div class="image-overlay">
       <div class="text">Poker Card</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Irithel.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Irithel.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Irithel</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Grock.webp" class="image"  id ="Tank">
+    <img src ="Hero/Grock.webp" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">Stone</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Argus.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Argus.webp" class="filterHero Fighter" Assasin>
     <div class="image-overlay">
       <div class="text">Argus</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Odette.webp" class="image"  id ="Mage">
+    <img src ="Hero/Odette.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Odette</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Lance.webp" class="image"  id ="Assain">
+    <img src ="Hero/Lance.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Lance</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Diggie.webp" class="image"  id ="Support">
+    <img src ="Hero/Diggie.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">bird-bird</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Hylos.webp" class="image"  id ="Tank">
+    <img src ="Hero/Hylos.webp" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">Hylos</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Zhask.webp" class="image"  id ="Mage">
+    <img src ="Hero/Zhask.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Zhask</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Helcurt.webp" class="image"  id ="Assain">
+    <img src ="Hero/Helcurt.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Hell</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Pharsa.webp" class="image"  id ="Mage">
+    <img src ="Hero/Pharsa.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Pharsa</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Lesley.webp" class="image"  id="Marksman" id ="Assain">
+    <img src ="Hero/Lesley.webp" class="filterHero Marksman Assasin">
     <div class="image-overlay">
       <div class="text">Lesley</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Jaw.jpg" class="image"  id ="Assain">
+    <img src ="Hero/Jaw.jpg" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Jaw</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Angela.webp" class="image"  id ="Support">
+    <img src ="Hero/Angela.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">Angel</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Gus.webp" class="image"  id ="Assain">
+    <img src ="Hero/Gus.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Gus</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Valir.webp" class="image"  id ="Mage">
+    <img src ="Hero/Valir.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Fire Boy</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Martis.jpg" class="image"  id ="Fighetr">
+    <img src ="Hero/Martis.jpg" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Martis</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Uranus.jpg" class="image"  id ="Tank">
+    <img src ="Hero/Uranus.jpg" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">Yranus</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Hanabi.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Hanabi.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Hanabi</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Change.webp" class="image"  id ="Mage">
+    <img src ="Hero/Change.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Chang</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Kaja.webp" class="image"  id ="Fighetr" id ="Support">
+    <img src ="Hero/Kaja.webp" class="filterHero Fighter Support">
     <div class="image-overlay">
       <div class="text">Kaja</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Selena.webp" class="image"  id ="Assain" id="Mage">
+    <img src ="Hero/Selena.webp" class="filterHero Assasin Mage">
     <div class="image-overlay">
       <div class="text">Crazy Women</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Aldous.webp" class="image"  id ="Fighetr">
+    <img src ="Hero/Aldous.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Ald</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Claude.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Claude.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Claudyy</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Vale.webp" class="image"  id ="Mage">
+    <img src ="Hero/Vale.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Wind Boy</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Leo.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Leo.webp" class="filterHero Fighter" >
     <div class="image-overlay">
       <div class="text">Horsey</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Lunox.webp" class="image"  id ="Mage">
+    <img src ="Hero/Lunox.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Lunox</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Hanzo.webp" class="image"  id ="Assain">
+    <img src ="Hero/Hanzo.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Hanzo</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Belerick.webp" class="image"  id ="Tank">
+    <img src ="Hero/Belerick.webp" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">Groot</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Kimmy.webp" class="image"  id ="Marksman" id="Mage">
+    <img src ="Hero/Kimmy.webp" class="filterHero Marksman Mage">
     <div class="image-overlay">
       <div class="text">Kimmy</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Thamuz.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Thamuz.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Lava Boy</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Harith.jpg" class="image"  id ="Mage">
+    <img src ="Hero/Harith.jpg" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Harith</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Minsi.jpg" class="image"  id ="Fighter">
+    <img src ="Hero/Minsi.jpg" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Minsi</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Kadita.jpg" class="image"  id ="Mage">
+    <img src ="Hero/Kadita.jpg" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Water Girl</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Faramis.webp" class="image"  id ="Support" id ='Mage'>
+    <img src ="Hero/Faramis.webp" class="filterHero Support Mage">
     <div class="image-overlay">
       <div class="text">Ghost</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Badang.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Badang.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Bandung</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Khufra.jpg" class="image"  id ="Tank" id="Suport">
+    <img src ="Hero/Khufra.jpg" class="filterHero Tank Support">
     <div class="image-overlay">
       <div class="text">Khufra</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/GRanger.webp" class="image"  id ="Marksman">
+    <img src ="Hero/GRanger.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Ginger</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Guin.webp" class="image"  id ="Fighetr">
+    <img src ="Hero/Guin.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Guin</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Esme.webp" class="image"  id ="Mage" id="Tank">
+    <img src ="Hero/Esme.webp" class="filterHero Mage Tank">
     <div class="image-overlay">
       <div class="text">Esme</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Terizla.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Terizla.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Thor</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/borg.webp" class="image"  id ="Fighter">
+    <img src ="Hero/borg.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Borg</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Ling.webp" class="image"  id ="Assain">
+    <img src ="Hero/Ling.webp" class="filterHero Assasin" >
     <div class="image-overlay">
       <div class="text">Ling Ding Dong</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Dyrroth.webp" class="image"  id ="Assain">
+    <img src ="Hero/Dyrroth.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Die</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Lylia.webp" class="image"  id ="Mage">
+    <img src ="Hero/Lylia.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Eh-Disappear</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Baxia.webp" class="image"  id ="tank">
+    <img src ="Hero/Baxia.webp" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">Bax</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Masha.webp" class="image" id="Masha" id ="Tank">
+    <img src ="Hero/Masha.webp" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">Tanky</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/WanWan.webp" class="image"  id ="Marksman">
+    <img src ="Hero/WanWan.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">1-1</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Silvana.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Silvana.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Silvana</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Carmilla.webp" class="image"  id ="Support">
+    <img src ="Hero/Carmilla.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">Carmi</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Ceci.webp" class="image"  id ="Mage">
+    <img src ="Hero/Ceci.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Ceci</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Atlas.webp" class="image"  id ="Tank" id="Support">
+    <img src ="Hero/Atlas.webp" class="filterHero Tank Support">
     <div class="image-overlay">
       <div class="text">ATLAS</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Popol.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Popol.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Popol</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Yuzhong.webp" class="image"  id ="Fighetr">
+    <img src ="Hero/Yuzhong.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Dragon</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Luoyi.webp" class="image"  id ="Mage">
+    <img src ="Hero/Luoyi.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Yin-Yang</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/bene.webp" class="image"  id ="Assain">
+    <img src ="Hero/bene.webp" class="filterHero Assasin Fighter">
     <div class="image-overlay">
       <div class="text">Benner</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Khaleed.jpg" class="image"  id ="Fighetr">
+    <img src ="Hero/Khaleed.jpg" class="filterHero Fighter" >
     <div class="image-overlay">
       <div class="text">Sand Man</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Barats.webp" class="image"  id ="tank" id="Fighter">
+    <img src ="Hero/Barats.webp" class="filterHero Fighter Tank" >
     <div class="image-overlay">
       <div class="text">Dinosaur</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Brody.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Brody.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Brody</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Yve.webp" class="image"  id ="Mage">
+    <img src ="Hero/Yve.webp" class="filterHero Mage" >
     <div class="image-overlay">
       <div class="text">Yve</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Mathilda.webp" class="image"  id ="Support" id="Mathilda">
+    <img src ="Hero/Mathilda.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">Painn</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Paq.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Paq.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Paq</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Gloo.webp" class="image"  id ="Tank">
+    <img src ="Hero/Gloo.webp" class="filterHero Tank">
     <div class="image-overlay">
       <div class="text">slime</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Beatrix.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Beatrix.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Bea</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Phoveus.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Phoveus.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Red Lantern</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Natan.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Natan.webp" class="filterHero Marksman">
     <div class="image-overlay">
       <div class="text">Natan </div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Aulus.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Aulus.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Aulus</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Aamon.webp" class="image"  id ="Assain">
+    <img src ="Hero/Aamon.webp" class="filterHero Assain Mage">
     <div class="image-overlay">
       <div class="text">A Amon</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Floryn.webp" class="image"  id ="Support">
+    <img src ="Hero/Floryn.webp" class="filterHero Support">
     <div class="image-overlay">
       <div class="text">Real Healer</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Valen.webp" class="image"  id ="Mage">
+    <img src ="Hero/Valen.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">Valen</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Edith.webp" class="image"  id ="Tank" id="Marksman">
+    <img src ="Hero/Edith.webp" class="filterHero Marksman Tank"  >
     <div class="image-overlay">
       <div class="text">Edith</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Yin.webp" class="image"  id ="Fighter">
+    <img src ="Hero/Yin.webp" class="filterHero Fighter">
     <div class="image-overlay">
       <div class="text">Xiao Liao</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Melissa.webp" class="image"  id ="Marksman">
+    <img src ="Hero/Melissa.webp" class="filterHero Marksman" >
     <div class="image-overlay">
       <div class="text">Lisa</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Xavier.webp" class="image"  id ="Mage">
+    <img src ="Hero/Xavier.webp" class="filterHero Mage">
     <div class="image-overlay">
       <div class="text">JXavier</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Julian.webp" class="image"  id ="Mage" id="Mage">
+    <img src ="Hero/Julian.webp" class="filterHero Mage Fighter">
     <div class="image-overlay">
       <div class="text">Juliet</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Fredrinn.webp" class="image"  id ="Tank" id="Mage">
+    <img src ="Hero/Fredrinn.webp" class="filterHero TankMage">
     <div class="image-overlay">
       <div class="text">Useless</div>
     </div>
   </div>
   <div class ="image-container">
-    <img src ="Hero/Joy.webp" class="image"  id ="Assain">
+    <img src ="Hero/Joy.webp" class="filterHero Assasin">
     <div class="image-overlay">
       <div class="text">Dasher</div>
     </div>
   </div>
 </div>
-<script src="Hero.js"></script>
+<script src="Hero.Js"></script>
   
 
 </body>
