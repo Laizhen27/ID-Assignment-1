@@ -5,11 +5,12 @@ function filterSelection(c) {
   y = document.getElementsByClassName("image-container");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
-    // w3RemoveClass(x[i], "show");
+    w3RemoveClass(x[i], "show");
     w3RemoveClass(y[i], "show");
     if (x[i].className.indexOf(c) > -1) {
-      // w3AddClass(x[i], "show");
+      w3AddClass(x[i], "show");
       w3AddClass(y[i], "show");
+      console.log(true);
     }
   }
 }
