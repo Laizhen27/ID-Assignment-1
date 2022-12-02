@@ -9,20 +9,35 @@ body{
     float:center;
 
 }
+#nav{
+    z-index: 1;
+    position:sticky;
+}
+.container{
+    z-index: 1;
+    position:sticky;
+}
 
 header{
     background: black;
     display:flex;
     align-items: center;
-
     height:auto;
     float:center;
-
+    z-index: 1;
+    position:sticky;
+    top:0;
 }
+
+
+
 .logo{
     padding-top: 40px;
     padding-right: 0px;
-    float:left
+    float:left;
+    z-index: 1;
+    position:sticky;
+
 }
 
 header::after{
@@ -33,9 +48,7 @@ header::after{
 .container{
     width: 85%;
     margin: 0 auto;
-    float:center
-
-
+    float:center;
 }
 
 
@@ -43,9 +56,6 @@ header::after{
 nav ul{
     list-style: none;
     float:right;
-    
-
-
 }
 nav li {
     position: relative;
@@ -70,6 +80,7 @@ nav a{
     text-transform: uppercase;
 
 
+
 }
 nav ul ul{
     position:absolute;
@@ -81,8 +92,7 @@ nav ul ul li{
     margin:0;
     width:150px;
     float:none;
-    display:list-item;
-    z-index: 5;
+
 
   
 
@@ -242,8 +252,9 @@ html{
     position: relative;
     text-align: center;
     display:inline-block;
-    transition: all 1s ease-out;
+    transition: all 1s ease-in;
     transform: translate(-50%,80%);
+    
 
 }
 .overview-text h2{
@@ -260,7 +271,7 @@ html{
 /* Review */
 
 .review-container{
-    top:700px;
+    top:600px;
     left:25%;
     width:700px;
     background:rgb(0,0,0,0.8);
@@ -382,6 +393,28 @@ form .btn button:hover{
     width:100%;
     height:100%;
 }
+.footer{
+    top:700px;
+    position: relative;
+    border: 2px solid black;
+    background: black;
+    
+}
+.footer p{
+    text-align:center;
+    float:center;
+    color: white;
+}
+.footer img{
+    float:center;
+    margin-left: 20px;
+    padding-left:20px;
+
+}
+.icons{
+    margin-left: 35%;
+}
+
 
 
 

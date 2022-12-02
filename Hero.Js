@@ -2,10 +2,15 @@ filterSelection("all");
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("filterHero");
+  y = document.getElementsByClassName("image-container");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    // w3RemoveClass(x[i], "show");
+    w3RemoveClass(y[i], "show");
+    if (x[i].className.indexOf(c) > -1) {
+      // w3AddClass(x[i], "show");
+      w3AddClass(y[i], "show");
+    }
   }
 }
 
@@ -18,6 +23,7 @@ function w3AddClass(element, name) {
       element.className += " " + arr2[i];
     }
   }
+  // console.log(element.className);
 }
 
 function w3RemoveClass(element, name) {
@@ -30,6 +36,7 @@ function w3RemoveClass(element, name) {
     }
   }
   element.className = arr1.join(" ");
+  console.log(element.className);
 }
 
 // Add active class to the current button (highlight it)
