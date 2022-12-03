@@ -48,45 +48,6 @@
     background-color: cyan;
     color: black;
   }
-/* smaller navigation  */
-/* .subheader{
-    padding-top:50px;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-}
-.category{
-    background-color:rgb(151, 146, 146);
-    opacity: transparent;
-    display:inline-block; 
-    border-radius: 20px;  
-
-
-}
-.subheader li {
-    border:solid rgb(151, 146, 146);
-    float:left;
-    margin-right:50px;
-
-}
-.subheader ul{
-    list-style: none;
-}
-.subheader ul a{
-    text-decoration: none;
-    font-size:25px;
-    color:black;
-}
-.subheader ul li a:hover{
-
-    background-color: #2eca5d;;
-    box-shadow: 0 0 5px #2eca5d;
-
-}
-.subheader ul li a.active{
-    background-color: #2eca5d;
-
-}*/
 
  /* display images orderly  */
 .dipslay-container{
@@ -96,27 +57,28 @@
     padding-top: 30px;
     display:flex;
     flex-wrap: wrap;
+    visibility: hidden;
 
 } 
+.show {
+    visibility: visible;
+  }
 /* Image animation */
 .image-container{
     position:relative;
     width: 18%;
     margin-right: 20px;
     margin-bottom: 20px;
-    visibility: hidden;
-    /* display:none; */
+    
+
 }
-.show {
-    visibility: visible; 
-    /* display:block;
-  }
 .filterHero{
     display:block ;
     width: 100%;
     border-radius: 10px;
     border:2px solid black;
-    /* display: none; */
+    
+
 
 }
 .image-overlay{
@@ -150,5 +112,74 @@
     font-size:  40px;
     font-weight:bold;
     font-family: 'Allan';
+}
+@media(max-width:475px){
+
+    .dipslay-container{
+        padding-top: 30px;
+        margin-left:0px;
+        padding-right: 6%;
+        display:flex;
+        flex-wrap: wrap;
+        visibility: hidden;
+    
+    } 
+    .image-container{
+        position:relative;
+        width: 46.5%;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-left: 0;
+
+        
+    
+    }
+    .filterHero{
+        display:block ;
+        width: 100%;
+        border-radius: 10px;
+        border:2px solid black;
+        
+    
+    
+    }
+    .btn {
+        padding-top: 10px;
+        background:rgb(151, 146, 146);
+        border-radius: 5px;
+        opacity: transparent;
+        color:black; 
+        height:60px;
+        width:auto;
+        border: none;
+        outline: none;
+        text-decoration: none;
+        font-size: 12px;
+        cursor: pointer;
+        height:100%;
+      }
+      .subheader{
+        padding-top: 10px;
+
+        text-align: center;
+        margin-left:0px;
+        position: sticky;
+        z-index:1;
+        top:0;
+
+        
+      }
+      #myBtnContainer{
+        margin-right:0;
+        border:2px solid rgb(0,0,0,0.6);
+        border-radius: 5px;
+        display:inline-block;
+        background:rgb(151, 146, 146);
+        opacity: transparent;
+        height: 100px;
+        
+        
+      }
+    
 }
 
