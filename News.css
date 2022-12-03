@@ -47,9 +47,7 @@
     text-align: left;
     color:rgb(0,0,0,0.8);
     background-image: url("Patch/paper.png");
-    border-radius: 10px;
-
-    
+    border-radius: 10px; 
     
 }
 h1{
@@ -60,5 +58,36 @@ h1{
     float:center;
     margin-right: 20%;
     margin-left: 20%;  
+}
+@media(max-width:475px){
+    .column{
+        width:92%;
+        margin-left: 0;
+        
+    
+    }
+    .patch img{
+        margin-left: 10px;
+        margin-right:0px;
+        padding-top: 30px;
+        width: 80%;
+        float:left;
+        border-radius: 15px;
+        
+    }
+    .info{
+        width: 250px;
+        height: 200px;
+        padding-top: 50px;
+        margin-left: 30px;
+        margin-top: 25px;
+        float:center;
+        padding-left: 0px;
+        text-align: left;
+        color:rgb(0,0,0,0.8);
+        background-image: url("Patch/paper.png");
+        border-radius: 10px; 
+        
+    }
 }
 
