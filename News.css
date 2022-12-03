@@ -5,7 +5,6 @@
     
 }
 .column{
-    
     float:left;
     width:25%;
     padding:10px;
@@ -74,6 +73,8 @@ h2{
     border-radius: 15px;
     margin-left: 25%;
     margin-right: 25%;
+    height: 200%;
+
 
 }
 @media(max-width:475px){
