@@ -21,10 +21,6 @@
     border-radius: 5px;
     display:inline-block;
     background:rgb(151, 146, 146);
-
-    
-    
-    
   }
   .btn {
     background:rgb(151, 146, 146);
@@ -58,14 +54,10 @@
     display:flex;
     flex-wrap: wrap;
     visibility: hidden;
-    
-    
-    
 
 } 
 .show {
     visibility: visible;
-    
   }
 /* Image animation */
 .image-container{
@@ -73,19 +65,12 @@
     width: 18%;
     margin-right: 20px;
     margin-bottom: 20px;
-
-    
-
 }
 .filterHero{
     display:block ;
     width: 100%;
     border-radius: 10px;
     border:2px solid black;
-    
-    
-
-
 }
 .image-overlay{
     position:absolute;
@@ -100,7 +85,6 @@
     align-items:flex-end;
     opacity:0;
     transition: opacity 0.25s;
-
 }
 .image-overlay > *{
     transform:translateY(20px);
@@ -170,8 +154,6 @@
         position: sticky;
         z-index:1;
         top:0;
-
-        
       }
       #myBtnContainer{
         margin-right:0;
@@ -180,8 +162,7 @@
         display:inline-block;
         background:rgb(151, 146, 146);
         height: 100px;
-        
-        
+
       }
     
 }
