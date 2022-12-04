@@ -17,7 +17,7 @@ This section shows the reviews made by other players who play the game. User who
 This section is for user to make reviews on their opinion of the game etc.
 ## Competition
 ### Videos
-This competition page will only have one section this will be the  page where all the videos that can be found. These videos are the macthes played in competition. This videos will allow user(who don't play the game ) to see how is the game actually like. For user who  already plays the game this wpuld hbe the place for them to rewatch/ analyze the game.
+This competition page will only have one section this will be the  page where all the videos that can be found. These videos are the macthes played in competition. This videos will allow user(who don't play the game ) to see how is the game actually like. For user who  already plays the game this would be the place for them to rewatch/ analyze the game.
 ## News
 patch notices, new hero news will all be placed here and is being split into 2 part a recent patch notice and a section with most of  the patch notices
 ### Recent
