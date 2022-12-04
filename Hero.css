@@ -57,11 +57,13 @@
     padding-top: 30px;
     display:flex;
     flex-wrap: wrap;
-    visibility: hidden;
+    
+    
 
 } 
 .show {
     visibility: visible;
+    
   }
 /* Image animation */
 .image-container{
@@ -69,6 +71,8 @@
     width: 18%;
     margin-right: 20px;
     margin-bottom: 20px;
+    visibility: hidden;
+    
     
 
 }
@@ -77,6 +81,7 @@
     width: 100%;
     border-radius: 10px;
     border:2px solid black;
+    
     
 
 

@@ -5,17 +5,16 @@ function filterSelection(c) {
   y = document.getElementsByClassName("image-container");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    w3RemoveClass(y[i], "show");
+    RemoveClass(x[i], "show");
+    RemoveClass(y[i], "show");
     if (x[i].className.indexOf(c) > -1) {
-      w3AddClass(x[i], "show");
-      w3AddClass(y[i], "show");
-      console.log(true);
+      AddClass(x[i], "show");
+      AddClass(y[i], "show");
     }
   }
 }
 
-function w3AddClass(element, name) {
+function AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
@@ -24,10 +23,9 @@ function w3AddClass(element, name) {
       element.className += " " + arr2[i];
     }
   }
-  // console.log(element.className);
 }
 
-function w3RemoveClass(element, name) {
+function RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
@@ -40,7 +38,7 @@ function w3RemoveClass(element, name) {
   console.log(element.className);
 }
 
-// Add active class to the current button (highlight it)
+// highlight button when select
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
