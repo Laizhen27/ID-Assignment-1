@@ -1,7 +1,7 @@
 # ID-Assignment-1
 This is a ID Assignment
 # Design Rationale
-This website that I'm going to design is a website that help promote a game called Mobile Legend. Mobile Legends: Bang Bang, commonly referred to as ML or MLBB, is a mobile multiplayer online battle arena (MOBA) game developed and published by Moonton, a subsidiary of ByteDance. This website includes details of the game like introduces the game/provide game news/ able to find information of different characters in the game. This website also allow people to view games recording that is being played by professional this will then draw more attention to the game as they now know how this game works.
+This website that I'm going to design is a website that help promote a game called Mobile Legend. Mobile Legends: Bang Bang, commonly referred to as ML or MLBB, is a mobile multiplayer online battle arena (MOBA) game developed and published by Moonton, a subsidiary of ByteDance. This website includes details of the game like introduces the game/provide game news/ able to find the special nicknames that i've created. This website also allow people to view games recording that is being played by professional this will then draw more attention to the game as they now know how this game works.
 
 
 # Webpage Structure (Features)
@@ -17,7 +17,7 @@ This section shows the reviews made by other players who play the game. User who
 This section is for user to make reviews on their opinion of the game etc.
 ## Competition
 ### Videos
-This competition page will only have one section this will be the  page where all the videos that can be found. These videos are the macthes played in competition. This videos will allow user(who don't play the game ) to see how is the game actually like. For user who  already plays the game this would be the place for them to rewatch/ analyze the game.
+This competition page will only have one section this will be the  page where all the videos that can be found. These videos are the macthes played in competition. This videos will allow user(who don't play the game ) to see how is the game actually like. For user who  already plays the game this would RGbe the place for them to rewatch/ analyze the game.
 ## News
 patch notices, new hero news will all be placed here and is being split into 2 part a recent patch notice and a section with most of  the patch notices
 ### Recent
